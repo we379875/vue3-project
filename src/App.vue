@@ -3,6 +3,13 @@
 </template>
 
 <style lang="scss">
+@import './assets/scss/common.scss';
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

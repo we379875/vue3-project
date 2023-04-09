@@ -1,10 +1,15 @@
 <template>
-  <div class="headerBar" style="display: flex">
-    <h2 class="header-title">地下孔洞檢測查詢系統</h2>
+  <div class="headerBar">
+    <img
+      src="@/assets/logo/header-logo.svg"
+    />
+    <h2 class="header-title" style="margin-left: 1rem">地下孔洞檢測查詢系統</h2>
   </div>
 </template>
 <style lang="scss" scoped>
 .headerBar {
+  display: flex;
+  align-items: center;
   top: 0px;
   left: 0px;
   width: 1920px;
